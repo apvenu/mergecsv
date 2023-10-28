@@ -2,13 +2,16 @@
 import os
 import glob
 import pandas as pd
-#list all csv files only
 
+# Get current working directory
 cwd = os.getcwd()
 print("Current working directory: {0}".format(cwd))
 print("Current working directory: {0}".format(os.getcwd()))
+
 # Change the current working directory
 os.chdir('mbb/')
+#list all csv files only
+
 csv_files = glob.glob('*.{}'.format('csv'))
 csv_files
 
