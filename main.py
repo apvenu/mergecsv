@@ -14,4 +14,4 @@ csv_files
 
 df_concat = pd.concat([pd.read_csv(f) for f in csv_files ], ignore_index=True)
 df_concat
-df_concat.to_csv('C:/Users/mbb/Combined_files.csv')
+df_concat.to_csv('C:/Users/mbb/Combined_files.csv') #add the user folder name
